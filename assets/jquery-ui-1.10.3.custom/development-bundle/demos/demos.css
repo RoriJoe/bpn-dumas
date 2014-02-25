@@ -1,0 +1,90 @@
+body {
+	font-size: 12px;
+	font-family: "Tahoma";
+}
+
+table {
+	font-size: 1em;
+	
+}
+.tbSelect{
+    background-color: DDDDDD;
+	cellpadding:0;
+	cellspacing:0;
+	
+}
+.tbSelect tr:hover {
+    background-color: orange;
+    cursor: pointer;
+}	
+.content_table{
+	height:100px;
+	width:325px;
+	 overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+.content_table_wide{
+	height:100px;
+	width:400px;
+	 overflow-x: scroll;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+.title_user
+{
+	border-color:#98bf21;
+	text-align:right;
+	font-size: 12px;
+	border-bottom-style:solid;
+	border-width:2px;
+	 
+}
+.title_head
+{
+	text-align:left;
+	font-size: 15px;
+	border-width:2px;
+	border-bottom-style:solid;
+	border-color:#98bf21;
+}
+
+.title_subhead
+{
+	text-align:left;
+	font-size: 12px;
+	border-width:1px;
+	border-bottom-style:dotted;
+	font-weight:bold;
+}
+
+.detil_field_left
+{
+	text-align:left;
+	font-size: 12px;
+	border-width:1px;
+	text-align:left;
+}
+.msg
+{
+	text-align:center;
+	font-size: 12px;
+	border-width:0px;
+	color:red;
+}
+
+.demo-description {
+	clear: both;
+	padding: 12px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+.form-error{
+    font-size:11px;
+    color: red;
+}
